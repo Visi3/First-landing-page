@@ -66,13 +66,13 @@ export default function header() {
                                     </li>
                                 </ul>
                                 <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper">
-                                    <img  alt="ícone fechar menu" width={24} height={24} />
+                                    <img src={Close} alt="ícone fechar menu" width={24} height={24} />
                                 </span>
                             </div>
                         </div>
                         :
                         <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper" >
-                            <img  alt="ícone menu" width={24} height={24} />
+                            <img src={Menu} alt="ícone menu" width={24} height={24} />
                         </span>
                     }
                 </div>
