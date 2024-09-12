@@ -20,17 +20,15 @@ export default function Home() {
                     <img src={Logo} alt="Logo DonaFrost" width={220} height={80} />
                     <div className="desktop-only">
                     <ul className="flex gap-1">
+                       
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#solution">Home</a>
                         </li>
                         <li>
-                            <a href="#solution">Soluções</a>
+                            <a href="#testimonials">Fotos</a>
                         </li>
                         <li>
-                            <a href="#testimonials">Depoimentos</a>
-                        </li>
-                        <li>
-                            <a href="#pricing">Preços</a>
+                            <a href="#pricing">Sobre</a>
                         </li>
                         <li>
                             <a href="#contact">Contato</a>
@@ -50,17 +48,15 @@ export default function Home() {
                         <div className="mobile-menu-content">
                             <div className="container flex">
                                 <ul>
+                                    
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="#solution">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#solution">Soluções</a>
+                                        <a href="#testimonials">Fotos</a>
                                     </li>
                                     <li>
-                                        <a href="#testimonials">Depoimentos</a>
-                                    </li>
-                                    <li>
-                                        <a href="#pricing">Preços</a>
+                                        <a href="#pricing">Sobre</a>
                                     </li>
                                     <li>
                                         <a href="#contact">Contato</a>
@@ -83,7 +79,6 @@ export default function Home() {
                 
             </nav>
             </header>
-            
             <section id="hero">
                 <span className="desktop-only">
                     <img src={HeroRectangleTwo} alt="Retangulo um tela inicial" />
@@ -92,18 +87,18 @@ export default function Home() {
             </section>
 
             <div className="container content">
-                    <p className="desktop-only">
-                        Olá
+                    <h1>Capturando Momentos Inesquecíveis, Uma Foto de Cada Vez</h1>
+                    <p>Transforme suas memórias em arte com fotografias que contam histórias.
                     </p>
-                    <h1>Comida de mãe direto no seu apê, é só pedir que entregamos para você!</h1>
-                    <p>Já pensou em matar a saudade daquela comida caseira? O melhor de tudo, nossas receitas são 100% saudáveis, bora entrar no shape.
-                    </p>
+                    
                     <div className="flex gap-1">
-                        <span><Button text="Cadastre-se" /></span>
+                        <span><Button text="Contato" /></span>
                         <span className="desktop-only">
                             <Button text="Veja mais" secondary />
                         </span>
+                        
                     </div>
+                    
             </div>
         </>
     )
