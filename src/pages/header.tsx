@@ -3,15 +3,15 @@ import "../styles/header.css";
 import "../styles/utility.css";
 import Close from "../assets/close.svg";
 import Menu from "../assets/hamburguer.svg";
-import HeroRectangleOne from "../assets/images/rectangleOne.png";
-import HeroRectangleTwo from "../assets/images/rectangleTwo.png";
 import "../styles/hero.css";
+import Button from "../component/Button";
+import Home from "./Home";
 
 
 import { useState } from "react";
-import Button from "../component/Button";
 
-export default function Home() {
+
+export default function header() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     return (
         <>
@@ -76,30 +76,9 @@ export default function Home() {
                         </span>
                     }
                 </div>
-                
             </nav>
             </header>
-            <section id="hero">
-                <span className="desktop-only">
-                    <img src={HeroRectangleTwo} alt="Retangulo um tela inicial" />
-                </span>
-                <img src={HeroRectangleOne} alt="Retangulo dois tela inicial" />
-            </section>
-
-            <div className="container content">
-                    <h1>Capturando Momentos Inesquecíveis, Uma Foto de Cada Vez</h1>
-                    <p>Transforme suas memórias em arte com fotografias que contam histórias.
-                    </p>
-                    
-                    <div className="flex gap-1">
-                        <span><Button text="Contato" /></span>
-                        <span className="desktop-only">
-                            <Button text="Veja mais" secondary />
-                        </span>
-                        
-                    </div>
-                    
-            </div>
+            <Home/>
         </>
     )
 }
