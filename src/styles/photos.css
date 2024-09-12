@@ -1,0 +1,19 @@
+#photos{
+    display: flex;
+}
+
+.conteudo > h2 {
+    margin-bottom: 100px;
+}
+
+.conteudo{
+    text-align: center;
+    margin-inline:auto;
+    justify-content: center;
+
+}
+.conteudo > img{
+    height: 567.5px;   
+}
+
+

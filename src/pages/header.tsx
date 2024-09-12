@@ -8,21 +8,32 @@ import Button from "../component/Button";
 import Home from "./Home";
 
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export default function header() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+    useEffect(() => {
+        if (showMobileMenu) {
+
+        } else {
+
+        }
+
+    }, [showMobileMenu])
+
+
     return (
         <>
             <header className="container py-sm">
             <nav className="flex items-center justify-between">
-                    <img src={Logo} alt="Logo DonaFrost" width={220} height={80} />
+                    <img src={Logo} alt="Logo DonaFrost" width={300} height={120} />
                     <div className="desktop-only">
                     <ul className="flex gap-1">
                        
                         <li>
-                            <a href="#solution">Home</a>
+                            <a href="#solution">Início</a>
                         </li>
                         <li>
                             <a href="#testimonials">Fotos</a>
@@ -78,6 +89,7 @@ export default function header() {
                 </div>
             </nav>
             </header>
+            
             <Home/>
         </>
     )

@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     
 }
 
@@ -14,12 +14,12 @@
 }
 
 :root {
-    --bg-color: #FFF2F2;
+    --bg-color: #faf8f8;
     --text-color: #DC7D7D;
-    --second-text-color: #DC6060;
+    --second-text-color: #d04c4c;
     --light-text-color: #fff;
-    --light-gray: #f8f8f8;
-    --primary-color: #DC6060;
+    --light-gray: #fffdfd;
+    --primary-color: #db8b8b;
     --second-color: #DC7D7D;
 
     --ff-sans: "Montserrat", system-ui, sans-serif;
