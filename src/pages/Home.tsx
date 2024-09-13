@@ -25,12 +25,12 @@ export default function Home() {
                 <img src={HeroRectangleOne} alt="Retangulo dois tela inicial" />
 
                 <div className="container content">
+                    <hr/>
                     <h1>Capturando Momentos Inesquecíveis, Uma Foto de Cada Vez</h1>
-                    <p>Transforme suas memórias em arte com fotografias que contam histórias.
-                    </p>
+                    <p>Transforme suas memórias em arte com fotografias que contam histórias.</p>
                     
                     <div className="flex gap-1">
-                        <span><Button text="Contato" /></span>
+                        <span><Button text="Contato"  /></span>
                         <span className="desktop-only">
                             <Button text="Veja mais" secondary />
                         </span>
@@ -40,7 +40,6 @@ export default function Home() {
             </section>
 
             <section id="photos">
-                
                 <div className="conteudo">
                     <h2>Minhas Fotografias</h2>
                     
@@ -52,8 +51,11 @@ export default function Home() {
                         <img src={Gravida} alt="Foto de uma grávida"/>
                         <img src={Preto} alt="Foto preto e branco"/>
                         <img src={Ruiva} alt="Foto de uma menina ruiva"/>
-                    
                 </div>
+            </section>
+
+            <section>
+                
             </section>
         </>
     )

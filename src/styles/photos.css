@@ -2,9 +2,6 @@
     display: flex;
 }
 
-.conteudo > h2 {
-    margin-bottom: 100px;
-}
 
 .conteudo{
     text-align: center;
@@ -12,8 +9,19 @@
     justify-content: center;
 
 }
+
+.conteudo > h2 {
+    margin-bottom: 100px;
+}
+
+hr {
+    border: none;
+    margin-bottom: 50px;
+}
+
 .conteudo > img{
     height: 567.5px;   
 }
+
 
 
