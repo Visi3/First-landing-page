@@ -12,7 +12,7 @@
 
     position: absolute;
     justify-content: right;
-    
+
 }
 
 .desktop-about > img {
@@ -63,7 +63,7 @@
     }
 
     .texto-e-imagem {
-        flex-direction: column; /* Empilha o texto e a imagem em telas menores */
+         /* Empilha o texto e a imagem em telas menores */
         align-items: flex-start;
     }
 
