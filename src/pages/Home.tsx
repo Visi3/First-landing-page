@@ -67,10 +67,6 @@ export default function Home() {
             <section id="about">
                 <h2>Sobre</h2>
 
-                <span className="desktop-about">
-                    <img src={Circle1} alt="Circulo maior"/>
-                </span>
-
                 <div className="texto-e-imagem">
 
                     <div className="texto">
