@@ -69,6 +69,6 @@
     }
 
     .texto {
-         /* Espaçamento entre o texto e a imagem */
+        margin-right: 0%; /* Espaçamento entre o texto e a imagem */
     }
 }
