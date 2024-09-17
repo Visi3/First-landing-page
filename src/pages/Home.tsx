@@ -30,7 +30,8 @@ export default function Home() {
 
                 <div className="container content">
                     <hr/>
-                    <h1>Capturando Momentos Inesquecíveis, Uma Foto de Cada Vez</h1>
+                    <h1>Capturando Momentos Inesquecíveis</h1>
+                    <h1> Uma Foto de Cada Vez</h1>
                     <p>Transforme suas memórias em arte com fotografias que contam histórias.</p>
                     
                     <div className="flex gap-1">
