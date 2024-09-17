@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.svg";
+import Logo from "../assets/images/Logo.png";
 import "../styles/header.css";
 import "../styles/utility.css";
 import Close from "../assets/close.svg";
@@ -28,7 +28,7 @@ export default function header() {
         <>
             <header className="container py-sm">
             <nav className="flex items-center justify-between">
-                    <img src={Logo} alt="Logo DonaFrost" width={300} height={120} />
+                    <img className="logo" src={Logo} alt="Logo DonaFrost" width={125} height={80} />
                     <div className="desktop-only">
                     <ul className="flex gap-1">
                        
