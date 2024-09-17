@@ -56,3 +56,20 @@
     margin-right: 200px;
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+    .desktop-about {
+        top: 10px; /* Ajusta o topo em telas menores */
+        right: 10px; /* Ajusta a distância da borda direita em telas menores */
+    }
+
+    .texto-e-imagem {
+        flex-direction: column; /* Empilha o texto e a imagem em telas menores */
+        align-items: flex-start;
+    }
+
+    .texto {
+        margin-right: 0; /* Remove o espaçamento extra entre o texto e a imagem */
+        margin-bottom: 20px; /* Espaçamento entre o texto e a imagem */
+    }
+}
