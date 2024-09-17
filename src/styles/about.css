@@ -12,7 +12,7 @@
 
     position: absolute;
     justify-content: right;
-
+    
 }
 
 .desktop-about > img {
@@ -63,12 +63,11 @@
     }
 
     .texto-e-imagem {
-         /* Empilha o texto e a imagem em telas menores */
+        flex-direction: column; /* Empilha o texto e a imagem em telas menores */
         align-items: flex-start;
     }
 
     .texto {
-        margin-right: 0; /* Remove o espaçamento extra entre o texto e a imagem */
-        margin-bottom: 20px; /* Espaçamento entre o texto e a imagem */
+         /* Espaçamento entre o texto e a imagem */
     }
 }
