@@ -15,12 +15,21 @@ export default function header() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     useEffect(() => {
+        const htmlElement = document.documentElement;
+
         if (showMobileMenu) {
+
+            htmlElement.style.overflowY = 'hidden';
 
         } else {
 
+            htmlElement.style.overflowY = 'auto';
         }
 
+        return () => {
+            htmlElement.style.overflowY = 'auto';
+        };
+        
     }, [showMobileMenu])
 
 
