@@ -4,6 +4,32 @@
     height: 90vh;
     display: flex;
     overflow-y: hidden;
+
+    .content p {
+        width: 80%;
+        align-self: center;
+    }
+    
+    .content {
+        gap: 2.5rem;
+    }
+    
+    .content > div :first-child {
+        width: 10.625rem;
+    }
+    
+    .content p {
+        width: 80%;
+        align-self: center;
+        
+    }
+    
+    .content p:first-of-type {
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+
+        
+    }
 }
 
 #hero > img {
@@ -53,29 +79,3 @@
     }
 }
 
-.content p {
-    width: 80%;
-    align-self: center;
-}
-
-.content {
-    gap: 2.5rem;
-}
-
-.content > div :first-child {
-    width: 10.625rem;
-}
-
-.content p {
-    width: 80%;
-    align-self: center;
-    
-}
-.content > h1 {
-    
-}
-
-.content p:first-of-type {
-    color: var(--primary-color);
-    font-weight: var(--fw-bold);
-}

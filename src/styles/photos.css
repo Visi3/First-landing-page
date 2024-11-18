@@ -1,36 +1,35 @@
 #photos {
     padding: 20px;
     position: relative;
-}
 
-.desktop-photos {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-}
-
-.desktop-photos > img {
+    .desktop-photos {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
     
-    z-index: -1;
-    opacity: 50%;
+    .desktop-photos > img {
+        
+        z-index: -1;
+        opacity: 50%;
+    }
+    
+    .conteudo {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; 
+    }
+    
+    .conteudo img {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+        border-radius: 10px; 
+    }
 }
-
-.conteudo {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; 
-}
-
-.conteudo img {
-    width: 100%;
-    max-width: 300px; 
-    height: auto; 
-    border-radius: 10px; 
-}
-
 
 @media (max-width: 768px) {
     .conteudo img {

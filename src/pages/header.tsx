@@ -18,14 +18,10 @@ export default function header() {
         const htmlElement = document.documentElement;
 
         if (showMobileMenu) {
-
             htmlElement.style.overflowY = 'hidden';
-
         } else {
-
             htmlElement.style.overflowY = 'auto';
         }
-
         return () => {
             htmlElement.style.overflowY = 'auto';
         };
@@ -35,20 +31,20 @@ export default function header() {
 
     return (
         <>
-            <header className="container py-sm">
+            <header id="initial" className="container py-sm">
             <nav className="flex items-center justify-between">
                     <img className="logo" src={Logo} alt="Logo DonaFrost" width={125} height={80} />
                     <div className="desktop-only">
                     <ul className="flex gap-1">
                        
                         <li>
-                            <a href="#solution">Início</a>
+                            <a href="#initial">Início</a>
                         </li>
                         <li>
-                            <a href="#testimonials">Fotos</a>
+                            <a href="#photos">Fotos</a>
                         </li>
                         <li>
-                            <a href="#pricing">Sobre</a>
+                            <a href="#about">Sobre</a>
                         </li>
                         <li>
                             <a href="#contact">Contato</a>
@@ -70,10 +66,10 @@ export default function header() {
                                 <ul>
                                     
                                     <li>
-                                        <a href="#solution">Home</a>
+                                        <a href="#photos">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#testimonials">Fotos</a>
+                                        <a href="#photos">Fotos</a>
                                     </li>
                                     <li>
                                         <a href="#pricing">Sobre</a>
